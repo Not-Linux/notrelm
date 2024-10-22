@@ -1,0 +1,17 @@
+[package]
+name = "notrelm"
+version = "0.1.0"
+authors = ["Koncepto Sociala"]
+description = "Relm auxiliary library for Not Linux"
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+font-kit = "0.14.2"
+gtk = "0.16.1"
+log = "0.4.22"
+readonly = "0.2.12"
+relm = "0.24.1"
+relm-derive = "0.24.0"
+serde = { version = "1.0.211", features = ["derive"] }
+toml = "0.8.19"
